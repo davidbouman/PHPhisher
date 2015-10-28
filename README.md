@@ -6,7 +6,7 @@ Phphisher works on any Linux Distribution (You must install PHP5 and postfix)
 ## How it works
 After a sucessfull MITM Attack, you have to redirect all the traffic of your victim to your webserver's (apache, nginx etc) location.
 
-<p align="center"><img width="70%" src="https://sophron.github.io/wifiphisher/diagram.jpg" /><br /><i>Performing MiTM attack</i></p>
+<p align="center"><img width="70%" src="https://fak3r.com/2015/owasp-man_in_the_middle.jpg" /><br /><i>Performing MiTM attack</i></p>
 
 ## Usage
 Nothing special just put the files in to your webserver's directory.

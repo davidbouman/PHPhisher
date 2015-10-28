@@ -9,7 +9,7 @@ After a sucessfull MITM Attack, you have to redirect all the traffic of your vic
 <p align="center"><img width="70%" src="https://fak3r.com/2015/owasp-man_in_the_middle.jpg" /><br /><i>Performing MiTM attack</i></p>
 
 ## Usage
-Nothing special just put the files in to your webserver's directory.
+Nothing special just put the files into your webserver's directory.
 
 ## Screenshots
 To-Do
@@ -20,7 +20,7 @@ To-Do
 
 ## Credits
 The Php pages is based on this project <a
-href="https://github.com/sophron/wifiphisher">Dan McInerney</a>. 
+href="https://github.com/sophron/wifiphisher">WifiPhisher</a>. 
 
 ## Project Status 
 Phphisher current version is **1.0**. !!Still under development!!

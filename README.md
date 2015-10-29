@@ -24,5 +24,7 @@ To-Do
 The PHP pages is based on this project <a
 href="https://github.com/sophron/wifiphisher">WifiPhisher</a>. 
 
+Zarkopafilis made the logo and helped with testing.
+
 ## Project Status 
 PHPhisher current version is **1.0.2**. !!Still under development!!

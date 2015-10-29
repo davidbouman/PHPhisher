@@ -3,7 +3,7 @@
 ## About
 PHPhisher a pack of phising pages with automatic credentials harvesting.
 
-PHPhisher works on any Linux Distribution (You must install PHP5 and postfix)
+PHPhisher works on any Linux Distribution (You have to install PHP5 and postfix)
 
 ## How it works
 After a successful MITM Attack, you have to redirect all the traffic of your victim to your webserver's (apache, nginx etc) location.

@@ -1,3 +1,5 @@
+<p align="center"><img src="http://5.1.75.153/latest.png" /></p>
+
 ## About
 PHPhisher a pack of phising pages with automatic credentials harvesting.
 

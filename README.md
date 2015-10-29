@@ -10,9 +10,27 @@ After a successful MITM Attack, you have to redirect all the traffic of your vic
 
 <p align="center"><img width="70%" src="https://fak3r.com/2015/owasp-man_in_the_middle.jpg" /><br /><i>Performing MiTM attack</i></p>
 
-## Usage
-Nothing special just put the files into your webserver's directory.
+## Installation 
+Type the following commands:
+```
+Prepare OS:
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install apache2 php5 postfix 
 
+Cloning & editing the files:
+git clone git://github.com/NickTehPro/phphisher PHPhisher 
+cp PHPhisher/ /var/www/ 
+
+Apache Setup:
+
+cd ~
+cd /etc/apache2/sites-enabled/
+nano 000* //Change the location from /var/www/html/ to /var/www/MPWR/
+service apache2 reload
+DONE!
+```
+After installing everything run the wizard (Coming soon).
 ## Screenshots
 To-Do
 

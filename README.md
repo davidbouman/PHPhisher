@@ -1,7 +1,7 @@
 ## About
-Phphisher a pack of phising pages with automatic credentials harvesting.
+PHPhisher a pack of phising pages with automatic credentials harvesting.
 
-Phphisher works on any Linux Distribution (You must install PHP5 and postfix)
+PHPhisher works on any Linux Distribution (You must install PHP5 and postfix)
 
 ## How it works
 After a successful MITM Attack, you have to redirect all the traffic of your victim to your webserver's (apache, nginx etc) location.
@@ -19,8 +19,8 @@ To-Do
 * A computer that will act as attacker (arp and dns spoof).
 
 ## Credits
-The Php pages is based on this project <a
+The PHP pages is based on this project <a
 href="https://github.com/sophron/wifiphisher">WifiPhisher</a>. 
 
 ## Project Status 
-Phphisher current version is **1.0**. !!Still under development!!
+PHPhisher current version is **1.0.2**. !!Still under development!!

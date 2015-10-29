@@ -30,12 +30,12 @@ nano 000* //Change the location from /var/www/html/ to /var/www/MPWR/
 service apache2 reload
 DONE!
 ```
-After installing everything run the wizard (Coming soon).
+After installing everything, run the wizard (Coming soon).
 ## Screenshots
 To-Do
 
 ## Requirements
-* Linux Server with Postfix and Apache or Nginx. 
+* Linux Server with Postfix and Apache (or Nginx). 
 * A computer that will act as attacker (arp and dns spoof).
 
 ## Credits

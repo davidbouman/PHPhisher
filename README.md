@@ -26,7 +26,7 @@ Apache Setup:
 
 cd ~
 cd /etc/apache2/sites-enabled/
-nano 000* //Change the location from /var/www/html/ to /var/www/MPWR/
+nano 000* //Change the location from /var/www/html/ to /var/www/PHPhisher/
 service apache2 reload
 DONE!
 ```

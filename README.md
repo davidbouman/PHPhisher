@@ -40,7 +40,7 @@ After installing everything, run the wizard.
 http://5.1.75.153/
 ## Requirements
 * Linux Server with Postfix and Apache (or Nginx). 
-* A computer that will act as attacker (arp and dns spoof).
+* A computer that will act as the attacker (arp and dns spoof).
 
 ## Credits
 The PHP pages are based on this project: <a

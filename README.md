@@ -1,4 +1,4 @@
-<p align="center"><img src="http://5.1.75.153/latest.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/master/logo.png" /></p>
 
 ## About
 PHPhisher is a pack of phising pages with automatic credentials harvesting.

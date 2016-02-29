@@ -36,8 +36,8 @@ chmod 777 /var/www/use.php
 DONE!
 ```
 After installing everything, run the wizard.
-## Demo 
-http://5.1.75.153/
+## Screenshot
+
 ## Requirements
 * Linux Server with Postfix and Apache (or Nginx). 
 * A computer that will act as the attacker (arp and dns spoof).

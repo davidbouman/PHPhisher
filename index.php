@@ -17,6 +17,11 @@ switch ($content) {
 		echo 'window.location.href ="pages/minimal/index.html";'; 
 		echo '</script>';
 		break;
+    case "4":
+        echo '<script script type="text/javascript">';
+		echo 'window.location.href ="pages/dlink/index.html";'; 
+		echo '</script>';
+		break;
     default:
         echo '<script script type="text/javascript">';
 		echo 'window.location.href ="AvailableTe.html";'; 

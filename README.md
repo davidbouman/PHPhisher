@@ -37,7 +37,7 @@ DONE!
 ```
 After installing everything, run the wizard.
 ## Screenshot
-
+<p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/master/Demo.png" /></p>
 ## Requirements
 * Linux Server with Postfix and Apache (or Nginx). 
 * A computer that will act as the attacker (arp and dns spoof).

@@ -46,7 +46,7 @@ href="https://github.com/sophron/wifiphisher">WifiPhisher</a>.
 Zarkopafilis made the logo and helped with testing.
 
 ##Disclaimer
-FOR EDUCATIONAL PURPOSES ONLY! I am not responsible for a possible thermonuclear war because you used this tool to stole your girlfriend's credentials. 
+FOR EDUCATIONAL PURPOSES ONLY! I am not responsible for a possible thermonuclear war because you used this tool to steal your girlfriend's credentials. 
 
 ## Project Status 
 PHPhisher current version is **2.0.2**. !!Still under development!!

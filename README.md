@@ -47,4 +47,4 @@ href="https://github.com/sophron/wifiphisher">WifiPhisher</a>.
 Zarkopafilis made the logo and helped with testing.
 
 ## Project Status 
-PHPhisher current version is **2.0.1**. !!Still under development!!
+PHPhisher current version is **2.0.2**. !!Still under development!!

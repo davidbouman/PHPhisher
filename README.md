@@ -20,7 +20,7 @@ sudo apt-get install apache2 php5 postfix
 
 Cloning & editing the files:
 git clone git://github.com/NickTehPro/phphisher PHPhisher 
-cp PHPhisher/ /var/www/ 
+mv PHPhisher/ /var/www/ 
 
 Apache Setup:
 
@@ -30,9 +30,7 @@ nano 000* //Change the location from /var/www/html/ to /var/www/PHPhisher/
 service apache2 reload
 
 Permissions:
-chmod 777 /var/www/config.conf
-chmod 777 /var/www/reset.php
-chmod 777 /var/www/use.php
+chmod 777 /var/www/config.json
 DONE!
 ```
 After installing everything, run the wizard.
@@ -49,4 +47,4 @@ href="https://github.com/sophron/wifiphisher">WifiPhisher</a>.
 Zarkopafilis made the logo and helped with testing.
 
 ## Project Status 
-PHPhisher current version is **1.1.1**. !!Still under development!!
+PHPhisher current version is **2.0.2**. !!Still under development!!

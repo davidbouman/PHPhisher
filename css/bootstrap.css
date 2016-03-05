@@ -5,9 +5,8 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -1087,7 +1086,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -2545,10 +2544,9 @@ output {
 }
 .form-control {
   display: block;
-  width: 40%;
+  width: 100%;
   height: 34px;
-  padding: 6px 12px; 
-  position: relative;
+  padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
@@ -2623,7 +2621,7 @@ input[type="search"] {
   }
 }
 .form-group {
-  margin-bottom: 6px;
+  margin-bottom: 15px;
 }
 .radio,
 .checkbox {

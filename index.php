@@ -1,7 +1,7 @@
 <?php 
-$json = json_decode(file_get_contents("config.json"), true);
-print_r(array_slice($json, 1));
-switch ($json['page']) {
+$myfile = "config.conf";
+$content = file_get_contents($myfile,filesize("config.yml"));
+switch ($content) {
     case "1":
         echo '<script script type="text/javascript">';
 		echo 'window.location.href ="pages/office365/index.html";'; 
@@ -17,14 +17,15 @@ switch ($json['page']) {
 		echo 'window.location.href ="pages/minimal/index.html";'; 
 		echo '</script>';
 		break;
-	case "4":
+    case "4":
         echo '<script script type="text/javascript">';
-		echo 'window.location.href ="pages/dlink/";'; 
+		echo 'window.location.href ="pages/dlink/index.html";'; 
 		echo '</script>';
 		break;
     default:
         echo '<script script type="text/javascript">';
-		echo 'window.location.href ="install/";'; 
+		echo 'window.location.href ="AvailableTe.html";'; 
 		echo '</script>';
 }
+fclose($myfile);
 ?>

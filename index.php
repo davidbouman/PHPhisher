@@ -19,7 +19,7 @@ switch ($json['page']) {
 		break;
 	case "4":
         echo '<script script type="text/javascript">';
-		echo 'window.location.href ="pages/dlink/";'; 
+		echo 'window.location.href ="pages/dlink/index.html";'; 
 		echo '</script>';
 		break;
     default:

@@ -8,9 +8,9 @@ PHPhisher works on any Linux Distribution (You have to install PHP5, mysql).
 This is a snapshot version!! That means a lot of bugs are still in there and a huge list of things that doesn't work properly or at all.
 
 ## How it works
-The tool can be used on a varaity of possible attacks.
+The tool can be used on a Variety of possible attacks.
 Examples:
-This tool can be used on a Fake AC in order to aquire Facebook or other type of credentials from the victim.
+On a Fake AC in order to aquire Facebook or other type of credentials from the victim.
 Can work as a Phising platform for a MITM attack.
 ## Installation 
 Type the following commands:

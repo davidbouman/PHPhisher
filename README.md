@@ -46,11 +46,15 @@ After installing everything, edit the configuration file:
 	"dbpass": "phphisher", //Self explanatory 
 	"dbname": "phphisher", //Self explanatory 
 	"dbip": "localhost" //Self explanatory 
+	"dbuse": "1" // 1 = DB 2= Email Still buggy af.
 }
-
 ```
-## Screenshot (OLD)
-<p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/master/Demo.png" /></p>
+Point your browser to dbsetup.php in order to create the tables
+
+Run the installation Wizard
+
+# Screenshot 
+<p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/Dev/Demo.png" /></p>
 ## Requirements
 * Linux Server with MySQL and Apache(or Nginx). 
 * Your imagination on performing an attack that you can use this tool.
@@ -61,5 +65,7 @@ The PHP pages and the project as a whole are mainly based on this project:
 
 Zarkopafilis made the logo and helped with testing. Give him love <a href="https://github.com/Zarkopafilis">here</a>. 
 
+Buy me a coffee: 1JA3JRDv5WHG7f2vGiBEetVBJkwbK4Qp8
+
 ## Project Status 
-PHPhisher current version: 3.0 Snapshot #1
+PHPhisher current version: 3.0 Snapshot #2

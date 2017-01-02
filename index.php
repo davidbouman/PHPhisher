@@ -21,6 +21,10 @@ switch ($json['page']) {
         echo '<script script type="text/javascript">';
 		echo 'window.location.href ="pages/dlink/";'; 
 		echo '</script>';
+	case "5":
+        echo '<script script type="text/javascript">';
+		echo 'window.location.href ="pages/oauth-login";'; 
+		echo '</script>';
 		break;
     default:
         echo '<script script type="text/javascript">';

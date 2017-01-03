@@ -4,9 +4,6 @@ $dbuser = $json['dbuser'];
 $servername = $json['dbip'];
 $dbpass = $json['dbpass'];
 $dbname = $json['dbname'];
-$password = $_GET['password'];
-$email = $_GET['email'];
-
 
 // Create connection
 $conn = mysqli_connect($servername, $dbuser, $dbpass, $dbname);
@@ -24,7 +21,7 @@ reg_date TIMESTAMP
 )";
 
 if (mysqli_query($conn, $sql)) {
-    echo "Table MyGuests created successfully";
+    echo "Table credentials created successfully";
 } else {
     echo "Error creating table: " . mysqli_error($conn);
 }

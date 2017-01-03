@@ -1,6 +1,5 @@
 <?php 
 $json = json_decode(file_get_contents("config.json"), true);
-print_r(array_slice($json, 1));
 switch ($json['page']) {
     case "1":
         echo '<script script type="text/javascript">';
@@ -19,7 +18,11 @@ switch ($json['page']) {
 		break;
 	case "4":
         echo '<script script type="text/javascript">';
-		echo 'window.location.href ="pages/dlink/index.html";'; 
+		echo 'window.location.href ="pages/dlink/";'; 
+		echo '</script>';
+	case "5":
+        echo '<script script type="text/javascript">';
+		echo 'window.location.href ="pages/oauth-login";'; 
 		echo '</script>';
 		break;
     default:

@@ -1,7 +1,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/master/logo.png" /></p>
 
 ## About
-PHPhisher is a pack of phising pages with automatic credentials harvesting.
+PHPhisher is a pack of phising pages with an automatic harvesting system.
 
 PHPhisher works on any Linux Distribution (You have to install PHP5, mysql).
 

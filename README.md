@@ -1,9 +1,9 @@
 <p align="center"><img src="https://raw.githubusercontent.com/NickTehPro/PHPhisher/master/logo.png" /></p>
 
 ## About
-PHPhiser is a pack of phising pages with an automatic harvesting system.
+PHPhisher is a pack of phising pages with an automatic harvesting system.
 
-PHPhiser works on any Linux Distribution (You have to install PHP5, mysql).
+PHPhisher works on any Linux Distribution (You have to install PHP5, mysql).
 
 ## How it works
 The tool can be used on a Variety of possible attacks.
@@ -20,14 +20,14 @@ sudo apt-get upgrade
 sudo apt-get install apache2 php5 mysql-server mysql-client
 
 Cloning & Editing the files:
-git clone git://github.com/NickTehPro/PHPhiser PHPhiser
-mv PHPhiser/ /var/www/ 
+git clone git://github.com/NickTehPro/phphisher PHPhisher 
+mv PHPhisher/ /var/www/ 
 
 Apache Setup:
 
 cd ~
 cd /etc/apache2/sites-enabled/
-nano 000* //Change the location from /var/www/html/ to /var/www/PHPhiser/
+nano 000* //Change the location from /var/www/html/ to /var/www/PHPhisher/
 service apache2 reload
 
 Permissions:
@@ -70,12 +70,12 @@ Buy me a coffee: 1JA3JRDv5WHG7f2vGiBEetVBJkwbK4Qp8
 
 ## License
 
-PHPhiser is licensed under the MIT License. See the LICENSE.md for more information.
+PHPhisher is licensed under the MIT License. See the LICENSE.md for more information.
 
 ## Disclaimer
-* Usage of PHPhiser for attacking infrastructures without prior mutual consistency can be considered as an illegal activity. 
+* Usage of PHPhisher for attacking infrastructures without prior mutual consistency can be considered as an illegal activity. 
 It is the final user's responsibility to obey all applicable local, state and federal laws. 
 The author assume no liability and are not responsible for any misuse or damage caused by this program.
 
 ## Project Status 
-PHPhiser current version: 3.0
+PHPhisher current version: 3.0

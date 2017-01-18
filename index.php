@@ -19,4 +19,4 @@ switch ($json['page']) {
     default:
 		header("Location: install/");
 }
-?>
+
